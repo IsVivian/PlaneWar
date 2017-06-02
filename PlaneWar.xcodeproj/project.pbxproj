@@ -16,6 +16,15 @@
 		4B5FFEB51D828052005660A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEB31D828052005660A2 /* LaunchScreen.storyboard */; };
 		4B5FFEC01D828052005660A2 /* PlaneWarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FFEBF1D828052005660A2 /* PlaneWarTests.swift */; };
 		4B5FFECB1D828052005660A2 /* PlaneWarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FFECA1D828052005660A2 /* PlaneWarUITests.swift */; };
+		4B5FFED91D8280F4005660A2 /* textures.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFED81D8280F4005660A2 /* textures.atlas */; };
+		4B5FFEE21D82816A005660A2 /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEDB1D82816A005660A2 /* bullet.mp3 */; };
+		4B5FFEE31D82816A005660A2 /* enemy1_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEDC1D82816A005660A2 /* enemy1_down.mp3 */; };
+		4B5FFEE41D82816A005660A2 /* enemy2_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEDD1D82816A005660A2 /* enemy2_down.mp3 */; };
+		4B5FFEE51D82816A005660A2 /* enemy2_out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEDE1D82816A005660A2 /* enemy2_out.mp3 */; };
+		4B5FFEE61D82816A005660A2 /* enemy3_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEDF1D82816A005660A2 /* enemy3_down.mp3 */; };
+		4B5FFEE71D82816A005660A2 /* game_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEE01D82816A005660A2 /* game_music.mp3 */; };
+		4B5FFEE81D82816A005660A2 /* game_over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B5FFEE11D82816A005660A2 /* game_over.mp3 */; };
+		4B5FFEEA1D829906005660A2 /* EnemyPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5FFEE91D829906005660A2 /* EnemyPlane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		4B5FFEC61D828052005660A2 /* PlaneWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaneWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B5FFECA1D828052005660A2 /* PlaneWarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneWarUITests.swift; sourceTree = "<group>"; };
 		4B5FFECC1D828052005660A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5FFED81D8280F4005660A2 /* textures.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = textures.atlas; sourceTree = "<group>"; };
+		4B5FFEDB1D82816A005660A2 /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
+		4B5FFEDC1D82816A005660A2 /* enemy1_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy1_down.mp3; sourceTree = "<group>"; };
+		4B5FFEDD1D82816A005660A2 /* enemy2_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy2_down.mp3; sourceTree = "<group>"; };
+		4B5FFEDE1D82816A005660A2 /* enemy2_out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy2_out.mp3; sourceTree = "<group>"; };
+		4B5FFEDF1D82816A005660A2 /* enemy3_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy3_down.mp3; sourceTree = "<group>"; };
+		4B5FFEE01D82816A005660A2 /* game_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_music.mp3; sourceTree = "<group>"; };
+		4B5FFEE11D82816A005660A2 /* game_over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_over.mp3; sourceTree = "<group>"; };
+		4B5FFEE91D829906005660A2 /* EnemyPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyPlane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +119,10 @@
 		4B5FFEA51D828052005660A2 /* PlaneWar */ = {
 			isa = PBXGroup;
 			children = (
+				4B5FFEDA1D82816A005660A2 /* sounds */,
+				4B5FFED81D8280F4005660A2 /* textures.atlas */,
 				4B5FFEA61D828052005660A2 /* AppDelegate.swift */,
+				4B5FFEE91D829906005660A2 /* EnemyPlane.swift */,
 				4B5FFEA81D828052005660A2 /* GameScene.sks */,
 				4B5FFEAA1D828052005660A2 /* GameScene.swift */,
 				4B5FFEAC1D828052005660A2 /* GameViewController.swift */,
@@ -129,6 +150,20 @@
 				4B5FFECC1D828052005660A2 /* Info.plist */,
 			);
 			path = PlaneWarUITests;
+			sourceTree = "<group>";
+		};
+		4B5FFEDA1D82816A005660A2 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				4B5FFEDB1D82816A005660A2 /* bullet.mp3 */,
+				4B5FFEDC1D82816A005660A2 /* enemy1_down.mp3 */,
+				4B5FFEDD1D82816A005660A2 /* enemy2_down.mp3 */,
+				4B5FFEDE1D82816A005660A2 /* enemy2_out.mp3 */,
+				4B5FFEDF1D82816A005660A2 /* enemy3_down.mp3 */,
+				4B5FFEE01D82816A005660A2 /* game_music.mp3 */,
+				4B5FFEE11D82816A005660A2 /* game_over.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,13 +234,16 @@
 				TargetAttributes = {
 					4B5FFEA21D828052005660A2 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 					};
 					4B5FFEBA1D828052005660A2 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = 4B5FFEA21D828052005660A2;
 					};
 					4B5FFEC51D828052005660A2 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
 						TestTargetID = 4B5FFEA21D828052005660A2;
 					};
 				};
@@ -236,8 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5FFEA91D828052005660A2 /* GameScene.sks in Resources */,
+				4B5FFEE61D82816A005660A2 /* enemy3_down.mp3 in Resources */,
+				4B5FFED91D8280F4005660A2 /* textures.atlas in Resources */,
+				4B5FFEE31D82816A005660A2 /* enemy1_down.mp3 in Resources */,
 				4B5FFEB51D828052005660A2 /* LaunchScreen.storyboard in Resources */,
+				4B5FFEE71D82816A005660A2 /* game_music.mp3 in Resources */,
+				4B5FFEE51D82816A005660A2 /* enemy2_out.mp3 in Resources */,
+				4B5FFEE41D82816A005660A2 /* enemy2_down.mp3 in Resources */,
+				4B5FFEE81D82816A005660A2 /* game_over.mp3 in Resources */,
 				4B5FFEB21D828052005660A2 /* Assets.xcassets in Resources */,
+				4B5FFEE21D82816A005660A2 /* bullet.mp3 in Resources */,
 				4B5FFEB01D828052005660A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B5FFEAB1D828052005660A2 /* GameScene.swift in Sources */,
+				4B5FFEEA1D829906005660A2 /* EnemyPlane.swift in Sources */,
 				4B5FFEAD1D828052005660A2 /* GameViewController.swift in Sources */,
 				4B5FFEA71D828052005660A2 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.PlaneWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -422,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.PlaneWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.PlaneWarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaneWar.app/PlaneWar";
 			};
 			name = Debug;
@@ -446,6 +496,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.PlaneWarTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlaneWar.app/PlaneWar";
 			};
 			name = Release;
@@ -458,6 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.PlaneWarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = PlaneWar;
 			};
 			name = Debug;
@@ -469,6 +521,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.oci.ios.PlaneWarUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = PlaneWar;
 			};
 			name = Release;
@@ -492,6 +545,7 @@
 				4B5FFED11D828052005660A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B5FFED21D828052005660A2 /* Build configuration list for PBXNativeTarget "PlaneWarTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +554,7 @@
 				4B5FFED41D828052005660A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B5FFED51D828052005660A2 /* Build configuration list for PBXNativeTarget "PlaneWarUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +563,7 @@
 				4B5FFED71D828052005660A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
